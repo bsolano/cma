@@ -324,6 +324,7 @@ else:
     input = raw_input  # in py2, input(x) == eval(raw_input(x))
 
 import time  # not really essential
+time.clock = time.time
 import collections
 import numpy as np
 # arange, cos, size, eye, inf, dot, floor, outer, zeros, linalg.eigh,
